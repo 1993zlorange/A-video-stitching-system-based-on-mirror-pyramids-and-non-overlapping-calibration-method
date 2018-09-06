@@ -36,7 +36,7 @@ The code is seperated into calibaration and stitching
 * save as TRC_left,TRC_right
 
 # stitching(c++)
-using the result of the calibration(relative camera parametres) to project the images captured by the cameras 
+* using the result of the calibration(relative camera parametres) to project the images captured by the cameras 
 (there is another edition that the relative camera parametres are calulated by the software of KOLOR)
-The projecting process used the projection-transforming library
-github address:https://github.com/1993zlorange/projection-transforming
+* The projecting process used the projection-transforming library
+ * github address:https://github.com/1993zlorange/projection-transforming
