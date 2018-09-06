@@ -1,5 +1,5 @@
 # A-video-stitching-system-based-on-mirror-pyramids-and-non-overlapping-calibration-method
-code for cisp-bmei2017 A video stitching system based on mirror pyramids and non-overlapping calibration method
+code for CISP-BMEI2017 A video stitching system based on mirror pyramids and non-overlapping calibration method
 
 # Abstract
 The panoramic cameras on the market do not allow seamless stitching of the object close to the camera with the
@@ -38,3 +38,5 @@ The code is seperated into calibaration and stitching
 # stitching(c++)
 using the result of the calibration(relative camera parametres) to project the images captured by the cameras 
 (there is another edition that the relative camera parametres are calulated by the software of KOLOR)
+The projecting process used the projection-transforming library
+github address:https://github.com/1993zlorange/projection-transforming
